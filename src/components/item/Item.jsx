@@ -1,7 +1,7 @@
-
+import "./Item.css"
 
 const Item = ({card}) => {
-    const {name, img} = card;
+    const {name, img, options} = card;
   return (
     <div className="card">
         <img  className="card-logo" src={img} alt="" />
